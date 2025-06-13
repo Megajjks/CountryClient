@@ -10,6 +10,8 @@ export class CountryMapper {
       population: restCountry.population,
       flag: restCountry.flag,
       flagSvg: restCountry.flags.svg,
+      region: restCountry.region,
+      subRegion: restCountry.subregion ?? 'No subregion',
     };
   }
 

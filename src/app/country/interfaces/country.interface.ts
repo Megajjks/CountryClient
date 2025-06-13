@@ -5,4 +5,6 @@ export interface Country {
   population: number;
   flag: string;
   flagSvg: string;
+  region: string;
+  subRegion: string;
 }
